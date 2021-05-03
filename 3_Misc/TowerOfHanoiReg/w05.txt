@@ -1,0 +1,32 @@
+Welcome wagn9165
+cat /y/shared/Engineering/cs-drbc/assignments/w05.txt
+Tower of Hanoi
+
+The Tower of Hanoi consists of three rods (A, B, C)and a number of disks of different sizes, which can slide onto any rod. 
+The puzzle starts with the disks in a neat stack in ascending order of size on one rod A, the smallest at the top, thus making a conical shape. 
+
+The objective of the puzzle is to move the entire stack from rod A to rod C, obeying the following simple rules: 
+1. Only one disk can be moved at a time.
+2. Each move consists of taking the upper disk from one of the stacks and placing it on top of another stack or on an empty rod.
+3. No larger disk may be placed on top of a smaller disk.
+
+Implement the Tower of Hanoi. The input should be the number of disks in the original stack. The output should be a series of lines in the format:
+MOVE X TO X
+
+For example:
+Move A TO B
+Move B TO C
+Move A TO B
+Move C TO B
+... etc.
+
+Note: For these puzzels you can include math.h:
+   #include <math.h>
+That will give you access to: 
+   exp2(value)
+
+Note: If you wnat to test your code on a smaller stack (for example 3 disks), try this:
+   /y/shared/Engineering/cs-drbc/assignments/hanoiChecker 3 <(./yourExecutable 3) N
+If you chang both 3s to another number you can make the tower as big or small as you wish.
+Don't forget to submit when you are done.
+Only instructions requeted. Nothing submitted
